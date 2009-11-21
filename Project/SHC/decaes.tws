@@ -1,0 +1,25 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"decaes" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\resetprg.c" 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\sbrk.c" 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\app\decaes.cpp" 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\lib\aesdec.cpp" 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\lib\tables.h" 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\lib\unittest.h" 
+[WORKSPACE_FILE_STATES]
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\resetprg.c" 0 0 803 254 0 4 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\sbrk.c" 24 24 803 254 0 5 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\app\decaes.cpp" 0 0 799 280 0 0 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\lib\aesdec.cpp" 0 0 731 403 0 1 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\lib\tables.h" 96 96 803 254 0 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\lib\unittest.h" -4 -25 731 403 1 2 
+[LOADED_PROJECTS]
+"decaes" 
+[END]

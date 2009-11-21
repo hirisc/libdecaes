@@ -1,0 +1,233 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.8" 
+[PROJECT_DETAILS]
+"decaes" "C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes" "C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\decaes.hwp" "SuperH RISC engine" "Hitachi SuperH Standard" "Application" "SH4AL-DSP" "Other" 
+[INFORMATION]
+"プロジェクト情報がありません" 
+[TOOL_CHAIN]
+"Hitachi SuperH RISC engine Standard Toolchain" "8.0.5.0" 
+[CONFIGURATIONS]
+"Debug" "C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\Debug" 
+"Release" "C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\Release" 
+"SimDebug_SH4AL-DSP_Cycle_L" "C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\SimDebug_SH4AL-DSP_Cycle_L" 
+[BUILD_PHASES]
+"Hitachi OptLinker" 1 
+"Hitachi SH Assembler" 1 
+"Hitachi SH C/C++ Compiler" 1 
+"Hitachi SH C/C++ Library Generator" 1 
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"Absolute file" "ABS" 
+"Assembly include file" "INC" 
+"Assembly list file" "LIS" 
+"Assembly source file" "ASM" 
+"Assembly source file" "SRC" 
+"Binary file" "BIN" 
+"C header file" "H" 
+"C list file" "LST" 
+"C source file" "C" 
+"C++ header file" "HPP" 
+"C++ list file" "LPP" 
+"C++ source file" "CPP" 
+"CPU information file" "CPU" 
+"Expanded assembly source file" "EXP" 
+"Hex file" "HEX" 
+"Library file" "LIB" 
+"Library information file" "LBP" 
+"Linkage map file" "MAP" 
+"Linkage symbol file" "FSY" 
+"Object file" "OBJ" 
+"Optimize map file" "bls" 
+"Preprocessed C source file" "P" 
+"Preprocessed C++ source file" "PP" 
+"Profile file" "PRO" 
+"Relocatable file" "REL" 
+"S-Record file" "MOT" 
+"Stack information file" "SNI" 
+[FILE_GROUPS]
+"Absolute file" "BIN" "NONE" "" 
+"Assembly include file" "TEXT" "EDITOR" "" 
+"Assembly list file" "TEXT" "EDITOR" "" 
+"Assembly source file" "TEXT" "EDITOR" "" 
+"Binary file" "BIN" "NONE" "" 
+"C header file" "TEXT" "EDITOR" "" 
+"C list file" "TEXT" "EDITOR" "" 
+"C source file" "TEXT" "EDITOR" "" 
+"C++ header file" "TEXT" "EDITOR" "" 
+"C++ list file" "TEXT" "EDITOR" "" 
+"C++ source file" "TEXT" "EDITOR" "" 
+"CPU information file" "BIN" "NONE" "" 
+"Expanded assembly source file" "TEXT" "EDITOR" "" 
+"Hex file" "TEXT" "EDITOR" "" 
+"Library file" "BIN" "NONE" "" 
+"Library information file" "TEXT" "EDITOR" "" 
+"Linkage map file" "TEXT" "EDITOR" "" 
+"Linkage symbol file" "TEXT" "EDITOR" "" 
+"Object file" "BIN" "NONE" "" 
+"Optimize map file" "BIN" "NONE" "" 
+"Preprocessed C source file" "TEXT" "EDITOR" "" 
+"Preprocessed C++ source file" "TEXT" "EDITOR" "" 
+"Profile file" "BIN" "NONE" "" 
+"Relocatable file" "BIN" "NONE" "" 
+"S-Record file" "TEXT" "EDITOR" "" 
+"Stack information file" "BIN" "NONE" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+"Hitachi OptLinker" 
+"Hitachi SH Assembler" 
+"Hitachi SH C/C++ Compiler" 
+"Hitachi SH C/C++ Library Generator" 
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+[CUSTOM_PHASE_INPUT_GROUP]
+[CUSTOM_PHASE_OUTPUT_SYNTAX]
+[BUILD_ORDER]
+"Hitachi SH C/C++ Library Generator" 1 
+"Hitachi SH C/C++ Compiler" 1 
+"Hitachi SH Assembler" 1 
+"Hitachi OptLinker" 1 
+[BUILD_PHASE_DETAILS]
+"Hitachi OptLinker" "Object file|Library file|Relocatable file" 0 
+"Hitachi SH Assembler" "Assembly source file|Linkage symbol file" 1 
+"Hitachi SH C/C++ Compiler" "C source file|C++ source file" 1 
+"Hitachi SH C/C++ Library Generator" "" 0 
+[BUILD_FILE_ORDER_Assembly source file]
+"Hitachi SH Assembler" 1 
+[BUILD_FILE_ORDER_C source file]
+"Hitachi SH C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_C++ source file]
+"Hitachi SH C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_Linkage symbol file]
+"Hitachi SH Assembler" 1 
+[SCRAP]
+"Project Generator Setup File" "$(PROJDIR)\decaes.pgs" 
+[MAPPINGS]
+"Assembly source file" "Hitachi SH Assembler" "Hitachi SH C/C++ Compiler" 
+"Library file" "Hitachi OptLinker" "Hitachi SH C/C++ Library Generator" 
+"Object file" "Hitachi OptLinker" "Hitachi SH Assembler" 
+"Object file" "Hitachi OptLinker" "Hitachi SH C/C++ Compiler" 
+[PROJECT_FILES]
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\dbsct.c" "User" "C source file" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\intprg.src" "User" "Assembly source file" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\resetprg.c" "User" "C source file" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\sbrk.c" "User" "C source file" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\vecttbl.src" "User" "Assembly source file" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\vhandler.src" "User" "Assembly source file" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\app\decaes.cpp" "User" "C++ source file" 2 
+[FOLDER]
+"Assembly source file" "Assembly source file" 
+"C source file" "C source file" 
+"C++ source file" "C++ source file" 
+[GENERAL_DATA_PROJECT]
+"USE_CUSTOM_LINKAGE_ORDER" "0" 
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"DefaultSession" "C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\DefaultSession.hsf" 0 
+"SimSessionSH4AL-DSP_Cycle_L" "C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\SimSessionSH4AL-DSP_Cycle_L.hsf" 0 
+[GENERAL_DATA_SESSION_DefaultSession]
+[GENERAL_DATA_SESSION_SimSessionSH4AL-DSP_Cycle_L]
+[OPTIONS_Debug_Hitachi OptLinker]
+"Single Shot" "0d08e5aa6bde8c10" 4 
+[OPTIONS_Debug_Hitachi SH Assembler]
+"Assembly source file" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\intprg.src" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\vecttbl.src" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\vhandler.src" "058fae3e2b3e8c10" 3 
+"Linkage symbol file" "058fae3e2b3e8c10" 3 
+[OPTIONS_Debug_Hitachi SH C/C++ Compiler]
+"C source file" "0d5d1a824bde8c10" 2 
+"C++ source file" "0d5d1a824bde8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\dbsct.c" "0d5d1a824bde8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\resetprg.c" "0d5d1a824bde8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\sbrk.c" "0d5d1a824bde8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\app\decaes.cpp" "0d5d1a824bde8c10" 2 
+[OPTIONS_Debug_Hitachi SH C/C++ Library Generator]
+"Single Shot" "0e05483328de8c10" 1 
+[OPTIONS_Debug]
+"" 0 
+"[V|VERSION|6] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [B|ERRORPATH|1] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|ROUND|ZERO] [B|DENORMALIZE|0]" 3 
+"[V|VERSION|6] [S|INPUTLIBRARY|^"$(WORKSPDIR)\libdecaes\Debug\libdecaes.lib^"] [S|FORM|STYPE] [B|DEBUG|1] [S|ROM|(D,R)] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|SYMBOL|REFERENCE] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [I|CACHESIZE|000000008] [I|CACHELINE|000000020] [S|START|RSTHandler(00)|INTHandler,VECTTBL,INTTBL,IntPRG(0800)|PResetPRG(01000)|C$BSEC,C$DSEC,D(02000)|R(05580000)|S(0567FBF0)|P,B,C,PAES,CAES,DAES,BAES(0C000000)]
+" 4 
+"[V|VERSION|7] [S|INCLUDE|^"$(FILEDIR)\..\lib^"] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [B|LIST|0] [S|INLINE|DEFAULT] [I|INLINE|20] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|BIT_ORDER|RIGHT] [B|CHGINCPATH|1] [N|DEPENDSCAN|1]
+" 2 
+"[V|VERSION|7] [S|MODE|BUILD/CHANGED] [S|EXISTOUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|RUNTIME|1] [B|NEW|1] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [S|INLINE|DEFAULT] [I|INLINE|20] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|BIT_ORDER|RIGHT]
+" 1 
+[EXCLUDED_FILES_Debug]
+[LINKAGE_ORDER_Debug]
+[GENERAL_DATA_CONFIGURATION_Debug]
+[OPTIONS_Release_Hitachi OptLinker]
+"Single Shot" "084198f15bde8c10" 4 
+[OPTIONS_Release_Hitachi SH Assembler]
+"Assembly source file" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\intprg.src" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\vecttbl.src" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\vhandler.src" "058fae3e2b3e8c10" 3 
+"Linkage symbol file" "058fae3e2b3e8c10" 3 
+[OPTIONS_Release_Hitachi SH C/C++ Compiler]
+"C source file" "058fae3e2b3e8c10" 2 
+"C++ source file" "058fae3e2b3e8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\dbsct.c" "058fae3e2b3e8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\resetprg.c" "058fae3e2b3e8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\sbrk.c" "058fae3e2b3e8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\app\decaes.cpp" "02567ecc18de8c10" 2 
+[OPTIONS_Release_Hitachi SH C/C++ Library Generator]
+"Single Shot" "058fae3e2b3e8c10" 1 
+[OPTIONS_Release]
+"" 0 
+"[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|7] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|ROUND|ZERO] [B|DENORMALIZE|0] [S|BIT_ORDER|RIGHT] [B|SPEED|0][B|RUNTIME|1] [B|NEW|1] [B|CTYPE|0] [B|MATH|0] [B|MATHF|0] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 
+"[V|VERSION|6] [B|DEBUG|0] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [B|ERRORPATH|1] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|ROUND|ZERO] [B|DENORMALIZE|0]" 3 
+"[V|VERSION|6] [B|OPTIMIZE|0] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).abs^"] [S|ROM|(D,R)] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [B|ALIGN_SECTION|1] [S|FORM|STYPE] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [S|START|RSTHandler(000000000)|INTHandler,VECTTBL,INTTBL,IntPRG(000000800)|PResetPRG(000001000)|P,C,C$BSEC,C$DSEC,D(000002000)|B,R(05580000)|S(00567FBF0)] [S|INPUTLIBRARY|^"$(TCINSTALL)\lib\sh4aldspnl.lib^"]" 4 
+"[V|VERSION|7] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [B|ERRORPATH|1] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|ROUND|ZERO] [B|DENORMALIZE|0] [S|BIT_ORDER|RIGHT]" 2 
+[EXCLUDED_FILES_Release]
+[LINKAGE_ORDER_Release]
+[GENERAL_DATA_CONFIGURATION_Release]
+[OPTIONS_SimDebug_SH4AL-DSP_Cycle_L_Hitachi OptLinker]
+"Single Shot" "084198f15bde8c10" 4 
+[OPTIONS_SimDebug_SH4AL-DSP_Cycle_L_Hitachi SH Assembler]
+"Assembly source file" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\intprg.src" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\vecttbl.src" "058fae3e2b3e8c10" 3 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\vhandler.src" "058fae3e2b3e8c10" 3 
+"Linkage symbol file" "058fae3e2b3e8c10" 3 
+[OPTIONS_SimDebug_SH4AL-DSP_Cycle_L_Hitachi SH C/C++ Compiler]
+"C source file" "058fae3e2b3e8c10" 2 
+"C++ source file" "058fae3e2b3e8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\dbsct.c" "058fae3e2b3e8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\resetprg.c" "058fae3e2b3e8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\Project\SHC\decaes\sbrk.c" "058fae3e2b3e8c10" 2 
+"C:\cygwin\home\minegisi\programs\libdecaes\src\app\decaes.cpp" "02567ecc18de8c10" 2 
+[OPTIONS_SimDebug_SH4AL-DSP_Cycle_L_Hitachi SH C/C++ Library Generator]
+"Single Shot" "058fae3e2b3e8c10" 1 
+[OPTIONS_SimDebug_SH4AL-DSP_Cycle_L]
+"" 0 
+"[S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [V|VERSION|7] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|ROUND|ZERO] [B|DENORMALIZE|0] [S|BIT_ORDER|RIGHT] [B|SPEED|0][B|RUNTIME|1] [B|NEW|1] [B|CTYPE|0] [B|MATH|0] [B|MATHF|0] [B|STDARG|0] [B|STDIO|1] [B|STDLIB|1] [B|STRING|1] [B|IOS|0] [B|COMPLEX|0] [B|CPPSTRING|0] [S|MODE|BUILD/CHANGED]" 1 
+"[V|VERSION|6] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [B|ERRORPATH|1] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|ROUND|ZERO] [B|DENORMALIZE|0]" 3 
+"[V|VERSION|6] [B|OPTIMIZE|0] [B|DEBUG|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).abs^"] [S|ROM|(D,R)] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [B|ALIGN_SECTION|1] [S|FORM|STYPE] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [S|START|RSTHandler(000000000)|INTHandler,VECTTBL,INTTBL,IntPRG(000000800)|PResetPRG(000001000)|P,C,C$BSEC,C$DSEC,D(000002000)|B,R(05580000)|S(00567FBF0)] [S|INPUTLIBRARY|^"$(TCINSTALL)\lib\sh4aldspnl.lib^"]" 4 
+"[V|VERSION|7] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [B|ERRORPATH|1] [S|CPU|SH4ALDSP] [S|ENDIAN|LITTLE] [S|ROUND|ZERO] [B|DENORMALIZE|0] [S|BIT_ORDER|RIGHT]" 2 
+[EXCLUDED_FILES_SimDebug_SH4AL-DSP_Cycle_L]
+[LINKAGE_ORDER_SimDebug_SH4AL-DSP_Cycle_L]
+[GENERAL_DATA_CONFIGURATION_SimDebug_SH4AL-DSP_Cycle_L]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_SimSessionSH4AL-DSP_Cycle_L]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_SimSessionSH4AL-DSP_Cycle_L]
+"MEMORY_MAPPING_OPTIONS" "[V|VERSION|1] [S|CPUTYPE|^"Other (SH4AL-DSP)^"] [S|MAP|^"0x00000000,0x03FFFFFF,EXT,32,0101 0x04000000,0x04FFFFFF,I/O,32,0101 0x05000000,0x0500FFFF,XRAM,32,0101 0x05010000,0x0501FFFF,YRAM,32,0101 0x05020000,0x053FFFFF,I/O,32,0101 0x05400000,0x057FFFFF,URAM,32,0101 0x05800000,0x05FFFFFF,I/O,32,0101 0x06000000,0xDFFFFFFF,EXT,32,0101 0xE0000000,0xFFFFFFFF,I/O,32,0101^"] [S|RESOURCE|^"0x00000000,0x00007FFF,R/W 0x05000000,0x0500FFFF,R/W 0x05010000,0x0501FFFF,R/W 0x05580000,0x0567FFFF,R/W 0xF0000000,0xF002FFFF,R/W 0xF1000000,0xF102FFFF,R/W 0xF2000000,0xF200FFFF,R/W 0xF3000000,0xF300FFFF,R/W 0xF3800000,0xF380FFFF,R/W 0xF4000000,0xF402FFFF,R/W 0xF5000000,0xF502FFFF,R/W 0xF6000000,0xF600FFFF,R/W 0xF7000000,0xF700FFFF,R/W 0xF7800000,0xF780FFFF,R/W 0xF8000000,0xF80FFFFF,R/W 0xF9000000,0xF90FFFFF,R/W 0xFF000000,0xFFFFFFFF,R/W^"] [B|SIMIOF|0] [I|SIMIOADR|0x4]" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_SimSessionSH4AL-DSP_Cycle_L]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_SimSessionSH4AL-DSP_Cycle_L]
+"MEMORY_MAPPING_OPTIONS" "[V|VERSION|1] [S|CPUTYPE|^"Other (SH4AL-DSP)^"] [S|MAP|^"0x00000000,0x03FFFFFF,EXT,32,0101 0x04000000,0x04FFFFFF,I/O,32,0101 0x05000000,0x0500FFFF,XRAM,32,0101 0x05010000,0x0501FFFF,YRAM,32,0101 0x05020000,0x053FFFFF,I/O,32,0101 0x05400000,0x057FFFFF,URAM,32,0101 0x05800000,0x05FFFFFF,I/O,32,0101 0x06000000,0xDFFFFFFF,EXT,32,0101 0xE0000000,0xFFFFFFFF,I/O,32,0101^"] [S|RESOURCE|^"0x00000000,0x00007FFF,R/W 0x05000000,0x0500FFFF,R/W 0x05010000,0x0501FFFF,R/W 0x05580000,0x0567FFFF,R/W 0xF0000000,0xF002FFFF,R/W 0xF1000000,0xF102FFFF,R/W 0xF2000000,0xF200FFFF,R/W 0xF3000000,0xF300FFFF,R/W 0xF3800000,0xF380FFFF,R/W 0xF4000000,0xF402FFFF,R/W 0xF5000000,0xF502FFFF,R/W 0xF6000000,0xF600FFFF,R/W 0xF7000000,0xF700FFFF,R/W 0xF7800000,0xF780FFFF,R/W 0xF8000000,0xF80FFFFF,R/W 0xF9000000,0xF90FFFFF,R/W 0xFF000000,0xFFFFFFFF,R/W^"] [B|SIMIOF|0] [I|SIMIOADR|0x4]" 
+[GENERAL_DATA_CONFIGURATION_SESSION_SimDebug_SH4AL-DSP_Cycle_L_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_SimDebug_SH4AL-DSP_Cycle_L_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_SimDebug_SH4AL-DSP_Cycle_L_SimSessionSH4AL-DSP_Cycle_L]
+[SESSION_DATA_CONFIGURATION_SESSION_SimDebug_SH4AL-DSP_Cycle_L_SimSessionSH4AL-DSP_Cycle_L]
+"MEMORY_MAPPING_OPTIONS" "[V|VERSION|1] [S|CPUTYPE|^"Other (SH4AL-DSP)^"] [S|MAP|^"0x00000000,0x03FFFFFF,EXT,32,0101 0x04000000,0x04FFFFFF,I/O,32,0101 0x05000000,0x0500FFFF,XRAM,32,0101 0x05010000,0x0501FFFF,YRAM,32,0101 0x05020000,0x053FFFFF,I/O,32,0101 0x05400000,0x057FFFFF,URAM,32,0101 0x05800000,0x05FFFFFF,I/O,32,0101 0x06000000,0xDFFFFFFF,EXT,32,0101 0xE0000000,0xFFFFFFFF,I/O,32,0101^"] [S|RESOURCE|^"0x00000000,0x00007FFF,R/W 0x05000000,0x0500FFFF,R/W 0x05010000,0x0501FFFF,R/W 0x05580000,0x0567FFFF,R/W 0xF0000000,0xF002FFFF,R/W 0xF1000000,0xF102FFFF,R/W 0xF2000000,0xF200FFFF,R/W 0xF3000000,0xF300FFFF,R/W 0xF3800000,0xF380FFFF,R/W 0xF4000000,0xF402FFFF,R/W 0xF5000000,0xF502FFFF,R/W 0xF6000000,0xF600FFFF,R/W 0xF7000000,0xF700FFFF,R/W 0xF7800000,0xF780FFFF,R/W 0xF8000000,0xF80FFFFF,R/W 0xF9000000,0xF90FFFFF,R/W 0xFF000000,0xFFFFFFFF,R/W^"] [B|SIMIOF|0] [I|SIMIOADR|0x4]" 
+[EXT_DEBUGGER_INFO]
+0 "" "" "" "" 
+[END]

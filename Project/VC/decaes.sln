@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdecaes", "libdecaes.vcproj", "{EC419AD7-1F16-4D73-992B-060ACDDA6990}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decaes", "decaes.vcproj", "{26A1A9C1-5DD6-47CB-A134-889D4CE90C06}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC419AD7-1F16-4D73-992B-060ACDDA6990} = {EC419AD7-1F16-4D73-992B-060ACDDA6990}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC419AD7-1F16-4D73-992B-060ACDDA6990}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC419AD7-1F16-4D73-992B-060ACDDA6990}.Debug|Win32.Build.0 = Debug|Win32
+		{EC419AD7-1F16-4D73-992B-060ACDDA6990}.Release|Win32.ActiveCfg = Release|Win32
+		{EC419AD7-1F16-4D73-992B-060ACDDA6990}.Release|Win32.Build.0 = Release|Win32
+		{26A1A9C1-5DD6-47CB-A134-889D4CE90C06}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26A1A9C1-5DD6-47CB-A134-889D4CE90C06}.Debug|Win32.Build.0 = Debug|Win32
+		{26A1A9C1-5DD6-47CB-A134-889D4CE90C06}.Release|Win32.ActiveCfg = Release|Win32
+		{26A1A9C1-5DD6-47CB-A134-889D4CE90C06}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
